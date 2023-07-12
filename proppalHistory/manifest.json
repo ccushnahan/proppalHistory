@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "ShowPropertyUpdateHistory",
+    "version": "0.1",
+    "description": "Shows the update history for a property on property site ppal",
+    "icons": {
+        "48": "images/ppal48.png",
+        "96": "images/ppal96.png"
+
+    },
+    "browser_action": {
+        "default_icon": "images/ppal48.png",
+        "default_title": "ShowUpdateHistory"
+      },
+    "permissions": ["activeTab", "contextMenus"],
+    "background":
+    {
+            "scripts": ["main.js"]
+    }
+
+}
